@@ -20,6 +20,17 @@ Python版本: 3.7
 
 安装依赖库: `pip3 install -r requirements.txt`
 
+```
+pip3 install bs4
+pip3 install Path
+pip3 install asyncio
+pip3 install argparse
+pip3 install functoolsplus
+```
+安装 requests
+
+`python3 -m pip install requests`
+
 - 复制单个页面
 
 `python sitecopy.py -u "http://www.threezh1.com"`
