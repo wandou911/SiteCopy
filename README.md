@@ -68,4 +68,40 @@ Python版本: 3.7
 2. 网站或图床有防爬措施时无法正常保存
 3. 网络问题导致脚本无法正常执行
 
+## Mac python3 环境
+
+在python3的路径下 安装pip3 
+
+` curl https://bootstrap.pypa.io/get-pip.py | python3`
+
+安装 functoolsplus
+
+`pip3 install functoolsplus`
+
+安装 requests
+
+`python3 -m pip install requests`
+
+## mac使用
+
+Python版本: 3.7
+
+安装依赖库: `pip3 install -r requirements.txt`
+
+- 复制单个页面
+
+`python3 sitecopy.py -u "http://www.threezh1.com"`
+
+- 复制整个网站
+
+`python3 sitecopy.py -u "http://www.threezh1.com" -e`
+
+- 复制多个页面
+
+`python3 sitecopy.py -s "site.txt"`
+
+- 复制多个网站
+
+`python3 sitecopy.py -s "site.txt" -e`
+
 非常希望能够和师傅们共同交流对这些问题的解决方式，我的邮箱：makefoxm@qq.com
